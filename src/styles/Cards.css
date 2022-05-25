@@ -1,0 +1,70 @@
+.section-card--container{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.div-card--left{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 250px;
+}
+.div-card--left h1{
+    font-size: 65px;
+    color: hsl(255, 11%, 22%);
+}
+.div-card--left p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: hsl(257, 7%, 63%);
+    line-height: 30px;
+    width: 500px;
+}
+.div-card--left button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.div-card--right{
+    display: flex;
+    justify-content: center;
+}
+.div-card--right img{
+    width: 600px;
+}
+@media (max-width: 1300px){
+    .section-card--container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-card--left{
+        margin-left: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-card--left h1{
+        font-size: 45px;
+    }
+    .div-card--right img{
+        width: 400px;
+        margin-top: 30px;
+    }
+    .div-card--left p{
+        width: auto;
+    }
+}

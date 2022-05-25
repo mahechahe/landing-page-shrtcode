@@ -1,0 +1,66 @@
+.card-link{
+    width: 80%;
+    height: 70px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    -webkit-box-shadow: -3px -2px 15px -4px rgba(0,0,0,0.31); 
+    box-shadow: -3px -2px 15px -4px rgba(0,0,0,0.31);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.div-original--link h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(255, 11%, 22%);
+}
+.div-link--short{
+    display: flex;
+    width: 380px;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-link--short a{
+    font-size: 18px;
+    color: hsl(180, 66%, 49%);
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+.div-link--short button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background: hsl(180, 66%, 49%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 900px){
+    .card-link{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        height: 170px;
+        overflow: hidden;
+    }
+    .div-link--short{
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 95%;
+    }
+    .div-original--link{
+        border-bottom: 2px solid rgb(191, 191, 191, 0.6);
+        padding: 20px 0;
+        width: 95%; 
+    }
+    .div-link--short button{
+        width: 100%;
+    }
+}

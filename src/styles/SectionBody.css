@@ -1,0 +1,203 @@
+.div-section--body{
+    width: 100%;
+    background: #eff1f7;
+    height: auto;
+    margin-top: 160px;
+    position: relative;
+    padding-top: 100px;
+}
+.div-search--api{
+    width: 80%;
+    height: 140px;
+    background-image: url(../guias//images/bg-shorten-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+    position: absolute;
+    top: -80px;
+    right: calc(50% - 610px);
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parrafo-error{
+    position: absolute;
+    bottom: 20px;
+    color: rgb(255, 0, 0, 0.8);
+    left: 90px;
+}
+.div-search--api input{
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 5px;
+    color: hsl(260, 8%, 14%);
+    font-size: 18px;
+}
+.button-click-api{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.div-search--api button:hover{
+    background-color: rgb(42, 207, 207, 0.7);
+}
+.div-info--body{
+    width: 40%;
+    height: 130px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.div-info--body h2{
+    font-size: 34px;
+    color: hsl(255, 11%, 22%);
+}
+.div-info--body p{
+    font-size: 20px;
+    color: hsl(257, 7%, 63%);
+}
+.div-info--footer{
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+.div-card--footer{
+    width: 400px;
+    background: white;
+    height: 250px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    position: relative;
+    -webkit-box-shadow: -3px -2px 15px -4px rgba(0,0,0,0.31); 
+    box-shadow: -3px -2px 15px -4px rgba(0,0,0,0.31);
+}
+.div-card--footer h2{
+    font-size: 23px;
+    color: hsl(255, 11%, 22%);
+    margin-bottom: 20px;
+}
+.div-card--footer p{
+    font-size: 16px;
+    color: hsl(257, 7%, 63%);
+}
+.div-card-center{
+    margin-top: 50px;
+}
+.div-card-right{
+    margin-top: 100px;
+}
+.card-image{
+    position: absolute;
+    top: -40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(257, 27%, 26%);
+}
+.button-reset{
+    width: 30px;
+    position: absolute;
+    height: 30px;
+    border-radius: 50%;
+    left: 740px;
+}
+.error-class{
+    border: 3px solid rgb(255, 0, 0, 0.8);
+}
+.notError{
+    border: none;
+}
+.loading{
+    margin: 10px auto;
+}
+.barra-anchor{
+    width: 39.5px;
+    height: 10px;
+    position: absolute;
+    background: hsl(180, 66%, 49%);
+}
+.left-barra{
+    left: 380px;
+    top: 150px;
+}
+.right-barra{
+    left: 797px;
+    top: 150px;
+}
+@media (max-width: 900px){
+    .div-search--api{
+        width: 80%;
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        left: calc(50% - 200px);
+    }
+    .div-search--api input{
+        width: 80%;
+    }
+    .div-search--api button{
+        width: 80%;
+    }
+    .parrafo-error{
+        position: absolute;
+        bottom: 89px;
+        color: rgb(255, 0, 0, 0.8);
+        left: 49px;
+    }
+    .div-info--body{
+        width: 70%;
+        margin-top: 80px;
+    }
+    .div-info--footer{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-card-center{
+        margin-top: 0;
+    }
+    .div-card-right{
+        margin-top: 0;
+    }
+    .div-card--footer{
+        margin-bottom: 30px;
+    }
+    .left-barra{
+        left: 185px;
+        top: 250px;
+    }
+    .right-barra{
+        left: 185px;
+        top: 570px;
+    }
+    .barra-anchor{
+        height: 70px;
+        width: 15px;
+    }
+    .button-reset{
+        left: 170px;
+        top: 45px;
+        width: 0;
+        height: 0;
+        color: hsl(180, 66%, 49%);
+    }
+}
